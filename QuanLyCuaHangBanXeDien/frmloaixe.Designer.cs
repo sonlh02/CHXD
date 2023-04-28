@@ -37,14 +37,18 @@
             this.btnxoa = new System.Windows.Forms.Button();
             this.btnsua = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cbbmanhacungcap = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtmota = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txttenloaixe = new System.Windows.Forms.TextBox();
-            this.cbbmaloaixe = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtmaloaixe = new System.Windows.Forms.TextBox();
+            this.txtmanhacungcap = new System.Windows.Forms.TextBox();
+            this.btnthem = new System.Windows.Forms.Button();
+            this.btntim = new System.Windows.Forms.Button();
+            this.txttimkiem = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvloaixe)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -74,6 +78,10 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.btntim);
+            this.groupBox2.Controls.Add(this.txttimkiem);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.btnthem);
             this.groupBox2.Controls.Add(this.btnmoi);
             this.groupBox2.Controls.Add(this.btnthoat);
             this.groupBox2.Controls.Add(this.btnxoa);
@@ -83,7 +91,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(1342, 315);
+            this.groupBox2.Size = new System.Drawing.Size(1331, 71);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các chức năng";
@@ -97,7 +105,7 @@
             this.btnmoi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnmoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmoi.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnmoi.Location = new System.Drawing.Point(375, 26);
+            this.btnmoi.Location = new System.Drawing.Point(64, 26);
             this.btnmoi.Margin = new System.Windows.Forms.Padding(4);
             this.btnmoi.Name = "btnmoi";
             this.btnmoi.Size = new System.Drawing.Size(102, 41);
@@ -105,6 +113,7 @@
             this.btnmoi.Text = "Mới   ";
             this.btnmoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnmoi.UseVisualStyleBackColor = true;
+            this.btnmoi.Click += new System.EventHandler(this.btnmoi_Click);
             // 
             // btnthoat
             // 
@@ -115,7 +124,7 @@
             this.btnthoat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnthoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnthoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnthoat.Location = new System.Drawing.Point(898, 26);
+            this.btnthoat.Location = new System.Drawing.Point(732, 26);
             this.btnthoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(102, 41);
@@ -133,7 +142,7 @@
             this.btnxoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnxoa.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnxoa.Location = new System.Drawing.Point(726, 26);
+            this.btnxoa.Location = new System.Drawing.Point(560, 26);
             this.btnxoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnxoa.Name = "btnxoa";
             this.btnxoa.Size = new System.Drawing.Size(102, 41);
@@ -141,6 +150,7 @@
             this.btnxoa.Text = "Xóa   ";
             this.btnxoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnxoa.UseVisualStyleBackColor = true;
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btnsua
             // 
@@ -151,7 +161,7 @@
             this.btnsua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnsua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnsua.Location = new System.Drawing.Point(545, 26);
+            this.btnsua.Location = new System.Drawing.Point(379, 26);
             this.btnsua.Margin = new System.Windows.Forms.Padding(4);
             this.btnsua.Name = "btnsua";
             this.btnsua.Size = new System.Drawing.Size(102, 41);
@@ -159,16 +169,17 @@
             this.btnsua.Text = "Sửa   ";
             this.btnsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsua.UseVisualStyleBackColor = true;
+            this.btnsua.Click += new System.EventHandler(this.btnsua_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.cbbmanhacungcap);
+            this.groupBox1.Controls.Add(this.txtmanhacungcap);
+            this.groupBox1.Controls.Add(this.txtmaloaixe);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtmota);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.txttenloaixe);
-            this.groupBox1.Controls.Add(this.cbbmaloaixe);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -176,20 +187,10 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1342, 460);
+            this.groupBox1.Size = new System.Drawing.Size(1311, 223);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Loại Xe";
-            // 
-            // cbbmanhacungcap
-            // 
-            this.cbbmanhacungcap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbmanhacungcap.FormattingEnabled = true;
-            this.cbbmanhacungcap.Location = new System.Drawing.Point(504, 101);
-            this.cbbmanhacungcap.Margin = new System.Windows.Forms.Padding(4);
-            this.cbbmanhacungcap.Name = "cbbmanhacungcap";
-            this.cbbmanhacungcap.Size = new System.Drawing.Size(143, 25);
-            this.cbbmanhacungcap.TabIndex = 13;
             // 
             // label3
             // 
@@ -229,16 +230,6 @@
             this.txttenloaixe.Size = new System.Drawing.Size(143, 25);
             this.txttenloaixe.TabIndex = 2;
             // 
-            // cbbmaloaixe
-            // 
-            this.cbbmaloaixe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbmaloaixe.FormattingEnabled = true;
-            this.cbbmaloaixe.Location = new System.Drawing.Point(504, 60);
-            this.cbbmaloaixe.Margin = new System.Windows.Forms.Padding(4);
-            this.cbbmaloaixe.Name = "cbbmaloaixe";
-            this.cbbmaloaixe.Size = new System.Drawing.Size(143, 25);
-            this.cbbmaloaixe.TabIndex = 1;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -260,6 +251,78 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã Loại Xe";
             // 
+            // txtmaloaixe
+            // 
+            this.txtmaloaixe.Location = new System.Drawing.Point(504, 55);
+            this.txtmaloaixe.Margin = new System.Windows.Forms.Padding(4);
+            this.txtmaloaixe.Name = "txtmaloaixe";
+            this.txtmaloaixe.Size = new System.Drawing.Size(143, 25);
+            this.txtmaloaixe.TabIndex = 13;
+            // 
+            // txtmanhacungcap
+            // 
+            this.txtmanhacungcap.Location = new System.Drawing.Point(504, 96);
+            this.txtmanhacungcap.Margin = new System.Windows.Forms.Padding(4);
+            this.txtmanhacungcap.Name = "txtmanhacungcap";
+            this.txtmanhacungcap.Size = new System.Drawing.Size(143, 25);
+            this.txtmanhacungcap.TabIndex = 14;
+            // 
+            // btnthem
+            // 
+            this.btnthem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnthem.BackgroundImage")));
+            this.btnthem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnthem.FlatAppearance.BorderSize = 0;
+            this.btnthem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnthem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnthem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnthem.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnthem.Location = new System.Drawing.Point(215, 26);
+            this.btnthem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnthem.Name = "btnthem";
+            this.btnthem.Size = new System.Drawing.Size(102, 41);
+            this.btnthem.TabIndex = 4;
+            this.btnthem.Text = "Thêm";
+            this.btnthem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
+            // 
+            // btntim
+            // 
+            this.btntim.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btntim.BackgroundImage")));
+            this.btntim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btntim.FlatAppearance.BorderSize = 0;
+            this.btntim.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btntim.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btntim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btntim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btntim.Location = new System.Drawing.Point(1176, 22);
+            this.btntim.Margin = new System.Windows.Forms.Padding(4);
+            this.btntim.Name = "btntim";
+            this.btntim.Size = new System.Drawing.Size(102, 41);
+            this.btntim.TabIndex = 15;
+            this.btntim.Text = "Tìm";
+            this.btntim.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btntim.UseVisualStyleBackColor = true;
+            this.btntim.Click += new System.EventHandler(this.btntim_Click);
+            // 
+            // txttimkiem
+            // 
+            this.txttimkiem.Location = new System.Drawing.Point(1011, 31);
+            this.txttimkiem.Margin = new System.Windows.Forms.Padding(4);
+            this.txttimkiem.Name = "txttimkiem";
+            this.txttimkiem.Size = new System.Drawing.Size(143, 25);
+            this.txttimkiem.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(936, 34);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Tìm Kiếm";
+            // 
             // frmloaixe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -270,9 +333,11 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmloaixe";
             this.Text = "frmloaixe";
+            this.Load += new System.EventHandler(this.frmloaixe_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvloaixe)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -289,13 +354,17 @@
         private System.Windows.Forms.Button btnxoa;
         private System.Windows.Forms.Button btnsua;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox cbbmanhacungcap;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtmota;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txttenloaixe;
-        private System.Windows.Forms.ComboBox cbbmaloaixe;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtmanhacungcap;
+        private System.Windows.Forms.TextBox txtmaloaixe;
+        private System.Windows.Forms.Button btnthem;
+        private System.Windows.Forms.Button btntim;
+        private System.Windows.Forms.TextBox txttimkiem;
+        private System.Windows.Forms.Label label2;
     }
 }

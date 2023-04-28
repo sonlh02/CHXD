@@ -94,6 +94,12 @@
     <Compile Include="frmloaixe.Designer.cs">
       <DependentUpon>frmloaixe.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmnhacungcap.cs">
       <SubType>Form</SubType>
     </Compile>

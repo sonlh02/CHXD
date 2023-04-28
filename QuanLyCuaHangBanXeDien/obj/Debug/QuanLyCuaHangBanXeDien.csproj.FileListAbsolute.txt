@@ -42,3 +42,25 @@ C:\Project\demo-QLCHBanXeDien-master\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaH
 C:\Project\demo-QLCHBanXeDien-master\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.exe.config
 C:\Project\demo-QLCHBanXeDien-master\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.exe
 C:\Project\demo-QLCHBanXeDien-master\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.pdb
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.exe.config
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.exe
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\bin\Debug\QuanLyCuaHangBanXeDien.pdb
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.AssemblyReference.cache
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.SuggestedBindingRedirects.cache
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.Form1.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmbanhang.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmbaohanh.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmchitiethoadon.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmdangnhap.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmhoadon.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmkhachhang.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmloaixe.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmnhacungcap.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmnhanvien.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmtracuu.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmxedien.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.Properties.Resources.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.GenerateResource.cache
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.CoreCompileInputs.cache
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.exe
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.pdb

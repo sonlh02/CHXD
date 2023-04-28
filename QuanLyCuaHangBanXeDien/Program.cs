@@ -16,7 +16,7 @@ namespace QuanLyCuaHangBanXeDien
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmbaohanh());
+            Application.Run(new frmloaixe());
         }
     }
 }
