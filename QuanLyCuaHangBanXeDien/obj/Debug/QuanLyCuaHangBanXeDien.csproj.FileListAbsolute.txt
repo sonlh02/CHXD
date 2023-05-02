@@ -57,7 +57,6 @@ C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\Qua
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmloaixe.resources
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmnhacungcap.resources
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmnhanvien.resources
-C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmtracuu.resources
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmxedien.resources
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.Properties.Resources.resources
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.GenerateResource.cache

@@ -112,12 +112,6 @@
     <Compile Include="frmnhanvien.Designer.cs">
       <DependentUpon>frmnhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmtracuu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmtracuu.Designer.cs">
-      <DependentUpon>frmtracuu.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmxedien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,9 +150,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmnhanvien.resx">
       <DependentUpon>frmnhanvien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmtracuu.resx">
-      <DependentUpon>frmtracuu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmxedien.resx">
       <DependentUpon>frmxedien.cs</DependentUpon>

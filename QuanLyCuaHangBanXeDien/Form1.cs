@@ -80,11 +80,6 @@ namespace QuanLyCuaHangBanXeDien
             frm.Show();
         }
 
-        private void traCứuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmtracuu frm = new frmtracuu();
-            frm.MdiParent = this;
-            frm.Show();
-        }
+
     }
 }
