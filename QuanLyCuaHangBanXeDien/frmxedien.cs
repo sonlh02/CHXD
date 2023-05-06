@@ -20,8 +20,8 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from XeDien";
-            DataSet ds = kn.laydulieu(query, "XeDien");
-            dgvdgvxedien.DataSource = ds.Tables["XeDien"];
+            //DataSet ds = kn.laydulieu(query, "XeDien");
+            //dgvdgvxedien.DataSource = ds.Tables["XeDien"];
         }
         private void frmxedien_Load(object sender, EventArgs e)
         {
@@ -87,8 +87,8 @@ namespace QuanLyCuaHangBanXeDien
         private void btntim_Click(object sender, EventArgs e)
         {
             string query = string.Format("select * from XeDien where MaXe = N'{0}'", txttimkiem.Text);
-            DataSet ds = kn.laydulieu(query, "XeDien");
-            dgvdgvxedien.DataSource = ds.Tables["XeDien"];
+            //DataSet ds = kn.laydulieu(query, "XeDien");
+            //dgvdgvxedien.DataSource = ds.Tables["XeDien"];
         }
     }
 }

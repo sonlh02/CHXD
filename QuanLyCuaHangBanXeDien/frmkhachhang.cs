@@ -21,8 +21,8 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from KhachHang";
-            DataSet ds = kn.laydulieu(query, "KhachHang");
-            dgvkhachhang.DataSource = ds.Tables["KhachHang"];
+            //DataSet ds = kn.laydulieu(query, "KhachHang");
+            //dgvkhachhang.DataSource = ds.Tables["KhachHang"];
         }
         private void frmkhachhang_Load(object sender, EventArgs e)
         {
@@ -91,8 +91,8 @@ namespace QuanLyCuaHangBanXeDien
         private void btntim_Click(object sender, EventArgs e)
         {
             string query = string.Format("select * from KhachHang where MaKhachHang like N'%{0}%'", txttimkiem.Text);
-            DataSet ds = kn.laydulieu(query, "KhachHang");
-            dgvkhachhang.DataSource = ds.Tables["KhachHang"];
+            //DataSet ds = kn.laydulieu(query, "KhachHang");
+            //dgvkhachhang.DataSource = ds.Tables["KhachHang"];
         }
 
         private void txttimkiem_TextChanged(object sender, EventArgs e)

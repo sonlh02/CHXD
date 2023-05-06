@@ -20,8 +20,8 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from BaoHanh";
-            DataSet ds = kn.laydulieu(query, "BaoHanh");
-            dgvbaohanh.DataSource = ds.Tables["BaoHanh"];
+            //DataSet ds = kn.laydulieu(query, "BaoHanh");
+            //dgvbaohanh.DataSource = ds.Tables["BaoHanh"];
         }
         private void btnmoi_Click(object sender, EventArgs e)
         {
@@ -87,8 +87,8 @@ namespace QuanLyCuaHangBanXeDien
         private void btntim_Click(object sender, EventArgs e)
         {
             string query = string.Format("select BaoHanh.* from BaoHanh,KhachHang where BaoHanh.MaKhachHang=KhachHang.MaKhachHang and HoTen like N'%{0}%'", txttimkiem.Text);
-            DataSet ds = kn.laydulieu(query, "BaoHanh");
-            dgvbaohanh.DataSource = ds.Tables["BaoHanh"];
+            //DataSet ds = kn.laydulieu(query, "BaoHanh");
+            //dgvbaohanh.DataSource = ds.Tables["BaoHanh"];
         }
     }
 }

@@ -20,8 +20,8 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from LoaiXe";
-            DataSet ds = kn.laydulieu(query, "LoaiXe");
-            dgvloaixe.DataSource = ds.Tables["LoaiXe"];
+            //DataSet ds = kn.laydulieu(query, "LoaiXe");
+            //dgvloaixe.DataSource = ds.Tables["LoaiXe"];
         }
         private void btnmoi_Click(object sender, EventArgs e)
         {
@@ -87,8 +87,8 @@ namespace QuanLyCuaHangBanXeDien
         private void btntim_Click(object sender, EventArgs e)
         {
             string query = string.Format("select * from LoaiXe where MaLoaiXe = N'{0}'", txttimkiem.Text);
-            DataSet ds = kn.laydulieu(query, "LoaiXe");
-            dgvloaixe.DataSource = ds.Tables["LoaiXe"];
+            //DataSet ds = kn.laydulieu(query, "LoaiXe");
+            //dgvloaixe.DataSource = ds.Tables["LoaiXe"];
         }
     }
 }

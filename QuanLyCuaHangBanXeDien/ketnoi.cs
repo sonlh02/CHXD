@@ -5,12 +5,14 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace QuanLyCuaHangBanXeDien
 {
     class ketnoi
     {
         string con_str = "Data Source=SON;Initial Catalog=QLCHBanXeDien;Integrated Security=True";
+
         public DataSet laydulieu(string query, string table_name)
         {
             try
@@ -42,3 +44,4 @@ namespace QuanLyCuaHangBanXeDien
         }
     }
 }
+        

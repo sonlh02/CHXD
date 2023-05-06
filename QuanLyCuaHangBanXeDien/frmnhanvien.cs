@@ -20,8 +20,8 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from NhanVien";
-            DataSet ds = kn.laydulieu(query, "NhanVien");
-            dgvnhanvien.DataSource = ds.Tables["NhanVien"];
+            //DataSet ds = kn.laydulieu(query, "NhanVien");
+            //dgvnhanvien.DataSource = ds.Tables["NhanVien"];
         }
         private void frmnhanvien_Load(object sender, EventArgs e)
         {
@@ -87,8 +87,8 @@ namespace QuanLyCuaHangBanXeDien
         private void btntim_Click(object sender, EventArgs e)
         {
             string query = string.Format("select * from NhanVien where MaNhanVien like N'%{0}%'", txttimkiem.Text);
-            DataSet ds = kn.laydulieu(query, "NhanVien");
-            dgvnhanvien.DataSource = ds.Tables["NhanVien"];
+            //DataSet ds = kn.laydulieu(query, "NhanVien");
+            //dgvnhanvien.DataSource = ds.Tables["NhanVien"];
         }
     }
 }

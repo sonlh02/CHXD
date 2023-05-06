@@ -20,7 +20,7 @@ namespace QuanLyCuaHangBanXeDien
         public void getdata()
         {
             string query = "select * from XeDien";
-            DataSet ds = kn.laydulieu(query, "XeDien");
+            //DataSet ds = kn.laydulieu(query, "XeDien");
             //dgvsanpham.DataSource = ds.Tables["XeDien"];
         }
         private void frmbanhang_Load(object sender, EventArgs e)

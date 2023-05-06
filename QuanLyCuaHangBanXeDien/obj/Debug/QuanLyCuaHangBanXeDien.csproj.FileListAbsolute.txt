@@ -63,3 +63,5 @@ C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\Qua
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.CoreCompileInputs.cache
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.exe
 C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.pdb
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.frmHoaDonBan.resources
+C:\Project\demo-QLCHBanXeDien-master - Copy\QuanLyCuaHangBanXeDien\obj\Debug\QuanLyCuaHangBanXeDien.csproj.ResolveComReference.cache
